@@ -1,0 +1,30 @@
+.translate{
+  width: 1129px;
+  height: 595px;
+}
+
+
+.selectDate{
+  margin: auto;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+button{
+
+  margin-left: 30px;
+}
+
+
+.texts{
+  margin: auto;
+  margin-left: 350px;
+  margin-top: 30px;
+  width: 380px;
+  height: 180px;
+}
+
+li{
+  margin: auto;
+  margin-left: 105px;
+}

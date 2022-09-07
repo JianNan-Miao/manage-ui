@@ -1,0 +1,18 @@
+.empno,.inputno{
+  float: left;
+}
+
+
+span{
+  font-size: large;
+}
+
+
+.empno{
+  margin-right: 10px;
+}
+
+
+button{
+  background-color: #499C9C;
+}

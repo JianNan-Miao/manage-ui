@@ -1,0 +1,8 @@
+{
+  "localkeycloak": {
+    "url": "http://localhost:8080/auth/",
+    "realm": "master",
+    "clientId": "test0812"
+  },
+  "api":"http://localhost:3027"
+}

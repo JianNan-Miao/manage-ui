@@ -1,0 +1,50 @@
+[nz-form] {
+  max-width: 800px;
+  margin-left: 300px;
+}
+
+.select {
+  width: 220px;
+}
+
+
+nz-deep.ant-form-item .ant-cascader-picker, .ant-form-item .ant-select {
+  width: 220px;
+}
+
+
+nz-deep.ant-picker {
+
+  width: 220px;
+}
+
+[nz-form][_ngcontent-rtw-c82] {
+  max-width: 1118px;
+}
+
+#formBody{
+  margin: auto;
+  background-color: rgb(242, 242, 242);
+  width: 1129px;
+  height: 535px;
+}
+
+
+
+.ant-form-item {
+
+  margin-top: 60px;
+}
+
+
+.left[_ngcontent-dpk-c16], .right[_ngcontent-dpk-c16] {
+  float: left;
+  background-color: rgb(242,242,242);
+}
+
+
+
+nz-date-picker {
+
+  width: 220px;
+}

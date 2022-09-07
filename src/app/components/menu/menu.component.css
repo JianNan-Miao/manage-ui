@@ -1,0 +1,19 @@
+[nz-menu] {
+  width: 220px;
+  height: 596px;
+  background:rgb(23, 75, 77);;
+}
+
+/* [nz-menu-item]{
+  background: pink;
+} */
+
+
+
+
+
+:host ::ng-deep div.ant-menu{
+  background: rgb(23, 75, 77);;
+}
+
+

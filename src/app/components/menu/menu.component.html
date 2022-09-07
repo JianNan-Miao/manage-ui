@@ -1,0 +1,31 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-12-21 14:18:02
+ * @LastEditTime: 2021-12-22 16:14:33
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \manage-ui\src\app\components\menu\menu.component.html
+-->
+<div class="menu" >
+  <ul nz-menu nzMode="inline" [nzSelectable]=true>
+    <li nz-submenu nzTitle="主页" nzIcon="home" [nzOpen]=true>
+      <ul>
+        <li nz-menu-item (click)="getUserList('updatedata')">数据更新</li>
+        <li nz-menu-item (click)="getUserList('translate')">时间戳转换</li>
+      </ul>
+    </li>
+  <li nz-submenu nzTitle="人员维护" nzIcon="user" [nzOpen]=true>
+    <ul>
+      <li nz-menu-item (click)="getUserList('user')">用户</li>
+      <li nz-menu-item (click)="getUserList('')">Option 6</li>
+    </ul>
+  </li>
+  <li nz-submenu nzTitle="系统设定" nzIcon="setting" [nzOpen]=true>
+    <ul>
+      <li nz-menu-item>Option 7</li>
+      <li nz-menu-item>Option 8</li>
+    </ul>
+  </li>
+</ul>
+</div>
+

@@ -1,0 +1,59 @@
+<div id="formBody">
+
+
+  <!-- <nz-date-picker formControlName="datePicker" [(ngModel)]="date" (ngModelChange)="onChange($event)"></nz-date-picker> -->
+  <form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
+
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="5" nzFor="plantcode" nzRequired>Plant</nz-form-label>
+      <nz-form-control [nzSpan]="18" nzErrorTip="Please select your plantcode!">
+        <nz-select class="select"
+          id="plantcode"
+          formControlName="plantcode"
+          nzPlaceHolder="Please Select plantcode"
+        >
+          <nz-option nzValue="F232" nzLabel="F232"></nz-option>
+          <nz-option nzValue="F236" nzLabel="F236"></nz-option>
+          <nz-option nzValue="F2C1" nzLabel="F2C1"></nz-option>
+          <nz-option nzValue="F7T1" nzLabel="F7T1"></nz-option>
+          <nz-option nzValue="F110" nzLabel="F110"></nz-option>
+        </nz-select>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="5" nzFor="kpi" nzRequired>KPI</nz-form-label>
+      <nz-form-control [nzSpan]="18" nzErrorTip="Please select your kpi!">
+        <nz-select
+          id="kpi"
+          formControlName="kpi"
+          nzPlaceHolder="Please Select kpi"
+        >
+          <nz-option nzValue="PRODUCTIVITY" nzLabel="PRODUCTIVITY"></nz-option>
+          <nz-option nzValue="UPPHN(约当)" nzLabel="UPPHN(约当)"></nz-option>
+          <nz-option nzValue="OEE(NEW)" nzLabel="OEE(NEW)"></nz-option>
+          <nz-option nzValue="SMT OTHER PRODUCTION" nzLabel="SMT OTHER PRODUCTION"></nz-option>
+
+        </nz-select>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item >
+      <nz-form-label [nzSpan]="5" nzRequired>date</nz-form-label>
+
+      <nz-form-control [nzSpan]="18" nzErrorTip="Please select your kpi!">
+        <nz-date-picker formControlName="datePicker"></nz-date-picker>
+
+      </nz-form-control>
+
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-control [nzSpan]="12" [nzOffset]="5">
+        <button nz-button nzType="primary">Submit</button>
+      </nz-form-control>
+    </nz-form-item>
+  </form>
+</div>
+

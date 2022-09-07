@@ -1,0 +1,16 @@
+.header{
+  width: 1365px;
+  height: 61px;
+  background-color: rgb(23, 75, 77);
+}
+
+span{
+  color: white;
+  font-size: x-large;
+}
+
+
+.user{
+  margin-left: 1100px;
+  margin-top: 20px;
+}

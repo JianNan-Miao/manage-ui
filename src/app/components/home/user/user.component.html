@@ -1,0 +1,31 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-12-22 14:47:21
+ * @LastEditTime: 2021-12-24 14:53:35
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \manage-ui\src\app\components\home\user\user.component.html
+-->
+
+<div>
+
+  <span>查询</span>
+
+  <div>
+    <div class="empno">
+      <span>工号</span>
+    </div>
+    <div class="inputno">
+      <nz-input-group nzSearch [nzAddOnAfter]="suffixIconButton"  >
+        <input type="text" nz-input placeholder="工号" />
+      </nz-input-group>
+      <ng-template #suffixIconButton>
+         <button nz-button nzType="primary">
+        <i nz-icon nzType="search"></i>
+      </button>
+      </ng-template>
+    </div>
+  </div>
+
+
+</div>

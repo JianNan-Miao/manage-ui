@@ -1,0 +1,14 @@
+<div class="translate">
+<div class="selectDate">
+  <nz-range-picker [(ngModel)]="date" (ngModelChange)="onChange($event)"></nz-range-picker>
+  <button nz-button nzType="primary" (click)="translateData()">转换</button>
+</div>
+
+<div class="texts">
+  <nz-list nzBordered nzSize="small">
+    <nz-list-item *ngFor="let item of timeList">{{item}}</nz-list-item>
+  </nz-list>
+
+</div>
+
+</div>

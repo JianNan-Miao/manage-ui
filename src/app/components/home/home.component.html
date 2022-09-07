@@ -1,0 +1,16 @@
+<div>
+  <app-header></app-header>
+</div>
+<div class="left">
+<app-menu></app-menu>
+</div>
+<div class="right">
+  <app-user *ngIf="page=='user'"></app-user>
+  <app-updatedata *ngIf="page=='updatedata'"></app-updatedata>
+  <app-translate  *ngIf="page=='translate'"></app-translate>
+</div>
+
+
+
+
+
